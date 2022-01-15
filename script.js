@@ -26,7 +26,7 @@ function displayResult(result) {
     temp.innerText = `${Math.round(result.main.temp)}°c`;
 
     let desc = document.querySelector('.desc');
-    desc.innerText = `${result.weather[0].description}`;
+    desc.innerText = `${result.weather[0].main}`;
 
     let minmax = document.querySelector('.minmax');
     minmax.innerText = `${Math.round(result.main.temp_min)}°c | ${Math.round(result.main.temp_max)}°c`
