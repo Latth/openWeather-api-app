@@ -39,7 +39,7 @@ window.addEventListener('load', firstQuery)
 
 function firstQuery(e){
     function getResultStart() {
-        let query = `${url}weather?q=istanbul&appid=${key}&units=metric&lang=tr`
+        let query = `${url}weather?q=istanbul&appid=${key}&units=metric&lang=en`
         fetch(query)
         .then(weather => {
             return weather.json();
