@@ -1,0 +1,1 @@
+I used openWeather API to get data.
