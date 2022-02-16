@@ -35,6 +35,7 @@ function displayResult(result) {
 }
 
 
+
 window.addEventListener('load', firstQuery)
 
 function firstQuery(e){
